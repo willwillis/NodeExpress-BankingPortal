@@ -16,7 +16,6 @@ app.get("/", (req, res) =>
   res.render("index", { title: "Account Summary", accounts })
 );
 
-
 app.use('/account', accountRoutes);
 app.use('/services', servicesRoutes);
 
